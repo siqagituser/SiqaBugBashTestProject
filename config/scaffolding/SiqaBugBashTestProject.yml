@@ -16,3 +16,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.890
+- serviceName: project.siqabugbashtest.integrations:FS2
+  packages:
+  - name: SiqaBugBashTestProject
+    version: "1.0"
