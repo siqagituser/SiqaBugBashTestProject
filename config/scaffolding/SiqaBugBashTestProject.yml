@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SiqaBugBashTestProject
+  gitServerName: siqagituserforbugbash
+  gitUrl: https://github.com/siqagituser/SiqaBugBashTestProject
+  gitUsername: siqagituser
+  gitBranch: main
