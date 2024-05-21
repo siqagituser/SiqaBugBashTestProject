@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/siqagituser/SiqaBugBashTestProject
   gitUsername: siqagituser
   gitBranch: main
+services:
+- serviceName: project.siqabugbashtest.integrations:FS1
+  packages:
+  - name: SiqaBugBashTestProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.890
