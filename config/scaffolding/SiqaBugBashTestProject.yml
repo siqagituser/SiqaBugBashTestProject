@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/siqagituser/SiqaBugBashTestProject
   gitUsername: siqagituser
   gitBranch: main
+- name: SIQA_OriginTest_OnPremAssets
+  gitServerName: SIQA_Origin
+  gitUrl: https://github.com/vijetadixit
+  gitUsername: vijetadixit
+  gitBranch: Test
 services:
 - serviceName: project.siqabugbashtest.integrations:FS1
   packages:
