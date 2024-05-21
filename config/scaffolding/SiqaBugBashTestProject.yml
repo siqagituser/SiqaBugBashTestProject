@@ -8,6 +8,7 @@ packages:
   gitUsername: siqagituser
   gitBranch: main
 - name: SIQA_OriginTest_OnPremAssets
+  version: "1.0"
   gitServerName: SIQA_Origin
   gitUrl: https://github.com/vijetadixit
   gitUsername: vijetadixit
@@ -24,4 +25,62 @@ services:
 - serviceName: project.siqabugbashtest.integrations:FS2
   packages:
   - name: SiqaBugBashTestProject
+    version: "1.0"
+- serviceName: project.siqabugbashtest.integrations:TPPTest215
+  packages:
+  - name: SiqaBugBashTestProject
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Basics_1:ComplexFS
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Basics_1:Basic_Flow
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.math:divideInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.890
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.890
+- serviceName: pub.math:subtractInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.890
+- serviceName: pub.math:multiplyIntList
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.890
+- serviceName: Basics_1:mapservice
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Basics_1:TryCatch
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: Map_1:TestFlow
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: REST_1_1.CurrentDateAndTime:_get
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.890
+- serviceName: pub.string:objectToString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.890
+- serviceName: SOAP_1_1:showDateAndTime
+  packages:
+  - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
